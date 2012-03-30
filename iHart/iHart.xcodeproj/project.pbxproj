@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091FF4A10D7E2A50011604C /* libcv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091FF4510D7E2A00011604C /* libcv.a */; };
+		0091FF4B10D7E2A50011604C /* libcvaux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091FF4610D7E2A10011604C /* libcvaux.a */; };
+		0091FF4C10D7E2A50011604C /* libcxcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091FF4710D7E2A30011604C /* libcxcore.a */; };
+		0091FF4D10D7E2A50011604C /* libhighgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091FF4810D7E2A40011604C /* libhighgui.a */; };
+		0091FF4E10D7E2A50011604C /* libml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091FF4910D7E2A50011604C /* libml.a */; };
+		0091FF6510D7E3670011604C /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091FF6410D7E3670011604C /* Utilities.m */; };
+		0091FFE410D9099E0011604C /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0091FFE310D9099E0011604C /* haarcascade_frontalface_default.xml */; };
+		1D3623260D0F684500981E51 /* FaceDetectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FaceDetectAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* FaceDetectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FaceDetectViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* FaceDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FaceDetectViewController.m */; };
+		A721083814E7465900236112 /* FinalIHartLogoV2_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A721083714E7465900236112 /* FinalIHartLogoV2_114x114.png */; };
+		A721083B14E7467300236112 /* FinalIHartLogoV2_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A721083A14E7467300236112 /* FinalIHartLogoV2_57x57.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091FF2910D7E2730011604C /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
+		0091FF2A10D7E2730011604C /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cv.hpp; sourceTree = "<group>"; };
+		0091FF2B10D7E2730011604C /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvaux.h; sourceTree = "<group>"; };
+		0091FF2C10D7E2740011604C /* cvaux.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cvaux.hpp; sourceTree = "<group>"; };
+		0091FF2D10D7E2740011604C /* cvcompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvcompat.h; sourceTree = "<group>"; };
+		0091FF2E10D7E2740011604C /* cvstreams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvstreams.h; sourceTree = "<group>"; };
+		0091FF2F10D7E2740011604C /* cvtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvtypes.h; sourceTree = "<group>"; };
+		0091FF3010D7E2740011604C /* cvver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvver.h; sourceTree = "<group>"; };
+		0091FF3110D7E2740011604C /* cvvidsurv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cvvidsurv.hpp; sourceTree = "<group>"; };
+		0091FF3210D7E2740011604C /* cvwimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvwimage.h; sourceTree = "<group>"; };
+		0091FF3310D7E2740011604C /* cxcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxcore.h; sourceTree = "<group>"; };
+		0091FF3410D7E2740011604C /* cxcore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cxcore.hpp; sourceTree = "<group>"; };
+		0091FF3510D7E2740011604C /* cxerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxerror.h; sourceTree = "<group>"; };
+		0091FF3610D7E2740011604C /* cxflann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxflann.h; sourceTree = "<group>"; };
+		0091FF3710D7E2740011604C /* cxmat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cxmat.hpp; sourceTree = "<group>"; };
+		0091FF3810D7E2740011604C /* cxmisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxmisc.h; sourceTree = "<group>"; };
+		0091FF3910D7E2740011604C /* cxoperations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cxoperations.hpp; sourceTree = "<group>"; };
+		0091FF3A10D7E2740011604C /* cxtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxtypes.h; sourceTree = "<group>"; };
+		0091FF3B10D7E2740011604C /* highgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = highgui.h; sourceTree = "<group>"; };
+		0091FF3C10D7E2740011604C /* highgui.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = highgui.hpp; sourceTree = "<group>"; };
+		0091FF3D10D7E2740011604C /* ml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ml.h; sourceTree = "<group>"; };
+		0091FF4510D7E2A00011604C /* libcv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcv.a; sourceTree = "<group>"; };
+		0091FF4610D7E2A10011604C /* libcvaux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvaux.a; sourceTree = "<group>"; };
+		0091FF4710D7E2A30011604C /* libcxcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcxcore.a; sourceTree = "<group>"; };
+		0091FF4810D7E2A40011604C /* libhighgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhighgui.a; sourceTree = "<group>"; };
+		0091FF4910D7E2A50011604C /* libml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libml.a; sourceTree = "<group>"; };
+		0091FF6310D7E3670011604C /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		0091FF6410D7E3670011604C /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		0091FFE310D9099E0011604C /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FaceDetectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FaceDetectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iHart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* FaceDetectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FaceDetectViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* FaceDetectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* FaceDetectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iHart_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHart_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iHart-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHart-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A721083714E7465900236112 /* FinalIHartLogoV2_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FinalIHartLogoV2_114x114.png; sourceTree = "<group>"; };
+		A721083A14E7467300236112 /* FinalIHartLogoV2_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FinalIHartLogoV2_57x57.png; sourceTree = "<group>"; };
+		A7A2DE6C14E72D02000BCC9D /* objdetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objdetect.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				0091FF4A10D7E2A50011604C /* libcv.a in Frameworks */,
+				0091FF4B10D7E2A50011604C /* libcvaux.a in Frameworks */,
+				0091FF4C10D7E2A50011604C /* libcxcore.a in Frameworks */,
+				0091FF4D10D7E2A50011604C /* libhighgui.a in Frameworks */,
+				0091FF4E10D7E2A50011604C /* libml.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0091FF2810D7E2730011604C /* opencv */ = {
+			isa = PBXGroup;
+			children = (
+				0091FF2910D7E2730011604C /* cv.h */,
+				0091FF2A10D7E2730011604C /* cv.hpp */,
+				0091FF2B10D7E2730011604C /* cvaux.h */,
+				0091FF2C10D7E2740011604C /* cvaux.hpp */,
+				0091FF2D10D7E2740011604C /* cvcompat.h */,
+				0091FF2E10D7E2740011604C /* cvstreams.h */,
+				0091FF2F10D7E2740011604C /* cvtypes.h */,
+				0091FF3010D7E2740011604C /* cvver.h */,
+				0091FF3110D7E2740011604C /* cvvidsurv.hpp */,
+				0091FF3210D7E2740011604C /* cvwimage.h */,
+				0091FF3310D7E2740011604C /* cxcore.h */,
+				0091FF3410D7E2740011604C /* cxcore.hpp */,
+				0091FF3510D7E2740011604C /* cxerror.h */,
+				0091FF3610D7E2740011604C /* cxflann.h */,
+				0091FF3710D7E2740011604C /* cxmat.hpp */,
+				0091FF3810D7E2740011604C /* cxmisc.h */,
+				0091FF3910D7E2740011604C /* cxoperations.hpp */,
+				0091FF3A10D7E2740011604C /* cxtypes.h */,
+				0091FF3B10D7E2740011604C /* highgui.h */,
+				0091FF3C10D7E2740011604C /* highgui.hpp */,
+				0091FF3D10D7E2740011604C /* ml.h */,
+				A7A2DE6C14E72D02000BCC9D /* objdetect.h */,
+			);
+			path = opencv;
+			sourceTree = "<group>";
+		};
+		0091FF4110D7E28D0011604C /* Static Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0091FF4510D7E2A00011604C /* libcv.a */,
+				0091FF4610D7E2A10011604C /* libcvaux.a */,
+				0091FF4710D7E2A30011604C /* libcxcore.a */,
+				0091FF4810D7E2A40011604C /* libhighgui.a */,
+				0091FF4910D7E2A50011604C /* libml.a */,
+			);
+			name = "Static Libraries";
+			sourceTree = "<group>";
+		};
+		0091FF6210D7E34E0011604C /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0091FF6310D7E3670011604C /* Utilities.h */,
+				0091FF6410D7E3670011604C /* Utilities.m */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* FaceDetectAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FaceDetectAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* FaceDetectViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* FaceDetectViewController.m */,
+				0091FF2810D7E2730011604C /* opencv */,
+				0091FF6210D7E34E0011604C /* utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iHart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				0091FF4110D7E28D0011604C /* Static Libraries */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iHart_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A721083A14E7467300236112 /* FinalIHartLogoV2_57x57.png */,
+				A721083714E7465900236112 /* FinalIHartLogoV2_114x114.png */,
+				2899E5210DE3E06400AC0155 /* FaceDetectViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iHart-Info.plist */,
+				0091FFE310D9099E0011604C /* haarcascade_frontalface_default.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iHart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iHart" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHart;
+			productName = FaceDetect;
+			productReference = 1D6058910D05DD3D006BFB54 /* iHart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iHart" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iHart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* FaceDetectViewController.xib in Resources */,
+				0091FFE410D9099E0011604C /* haarcascade_frontalface_default.xml in Resources */,
+				A721083814E7465900236112 /* FinalIHartLogoV2_114x114.png in Resources */,
+				A721083B14E7467300236112 /* FinalIHartLogoV2_57x57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FaceDetectAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* FaceDetectViewController.m in Sources */,
+				0091FF6510D7E3670011604C /* Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iHart_Prefix.pch;
+				INFOPLIST_FILE = "iHart-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = iHart;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iHart_Prefix.pch;
+				INFOPLIST_FILE = "iHart-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = iHart;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					i386,
+					x64,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv6";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					i386,
+					x64,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iHart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iHart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

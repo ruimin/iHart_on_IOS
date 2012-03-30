@@ -1,0 +1,656 @@
+TFaceDetect
+v7
+r0
+t301174496.231903
+cCheck dependencies
+cCpResource build/Debug-iphoneos/FaceDetect.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/Info.plist" FaceDetect-Info.plist
+cCompileXIB "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/MainWindow.xib"
+cCompileXIB "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/FaceDetectViewController.xib"
+cCpResource build/Debug-iphoneos/FaceDetect.app/haarcascade_frontalface_default.xml haarcascade_frontalface_default.xml
+cProcessPCH /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch.gch FaceDetect_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch.gch FaceDetect_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/main.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectAppDelegate.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectViewController.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/Utilities.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/main.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect" normal armv6
+cCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectAppDelegate.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectViewController.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/Utilities.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect" normal armv7
+cCreateUniversalBinary "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app.dSYM" "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect"
+cProcessProductPackaging "/Users/aa/Library/MobileDevice/Provisioning Profiles/A185512B-66F6-46E0-B2F9-1969A162B135.mobileprovision" "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/embedded.mobileprovision"
+cTouch "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect.xcent"
+cCodeSign "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C05C1B10000000000000110
+t1275445681
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BF4B7F900000000000001A7
+t1274329081
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/alloca.h
+c000000004BF75A3C0000000000000588
+t1274501692
+s1416
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/assert.h
+c000000004BF75A3C0000000000000DCB
+t1274501692
+s3531
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/math.h
+c000000004BF4BCB400000000000004F1
+t1274330292
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/stdlib.h
+c000000004BF75A3D0000000000002DF5
+t1274501693
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/string.h
+c000000004BF75A3D0000000000001731
+t1274501693
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/float.h
+c000000004BCCA1780000000000001538
+t1271701880
+s5432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004BCCA1780000000000000C7E
+t1271701880
+s3198
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdint.h
+c000000004BCCA2A2000000000000190C
+t1271702178
+s6412
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.h
+c000000004B27AAE700000000000001F9
+t1260890855
+s505
+i<UIKit/UIKit.h>
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m
+c000000004B27AAE70000000000000281
+t1260890855
+s641
+i"FaceDetectAppDelegate.h"
+i"FaceDetectViewController.h"
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.h
+c000000004B3BBC2C000000000000023A
+t1262205996
+s570
+i<UIKit/UIKit.h>
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m
+c000000004B28FCD70000000000000855
+t1260977367
+s2133
+i"FaceDetectViewController.h"
+i"Utilities.h"
+i"opencv/cv.h"
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.h
+c000000004B28DF3C0000000000000202
+t1260969788
+s514
+i<Foundation/Foundation.h>
+i"opencv/cv.h"
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m
+c000000004B28DF2D0000000000001DE3
+t1260969773
+s7651
+i"Utilities.h"
+i"opencv/cv.h"
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cv.h
+c000000004AC3F5E90000000000011693
+t1254356457
+s71315
+i<chdl.h>
+i"cxcore.h"
+i"cvtypes.h"
+i"cv.hpp"
+i"cvcompat.h"
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cv.hpp
+c000000004AC3F5E9000000000000AB79
+t1254356457
+s43897
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cvcompat.h
+c000000004AC3F5E90000000000009EE6
+t1254356457
+s40678
+i<string.h>
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cvtypes.h
+c000000004AC3F5E900000000000030D7
+t1254356457
+s12503
+i<assert.h>
+i<stdlib.h>
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cvver.h
+c000000004AC3F5E900000000000009EA
+t1254356457
+s2538
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cxcore.h
+c000000004AC3F5E900000000000155CA
+t1254356457
+s87498
+i"ipl.h"
+i"ipl/ipl.h"
+i"cxtypes.h"
+i"cxerror.h"
+i"cvver.h"
+i"cxcore.hpp"
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cxcore.hpp
+c000000004AC3F5E90000000000013E4E
+t1254356457
+s81486
+i"cxmisc.h"
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"cxoperations.hpp"
+i"cxmat.hpp"
+i"cxflann.h"
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cxerror.h
+c000000004AC3F5E90000000000002235
+t1254356457
+s8757
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cxflann.h
+c000000004AC3F5E90000000000001B19
+t1254356457
+s6937
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cxmat.hpp
+c000000004AC3F5E90000000000025125
+t1254356457
+s151845
+i<limits.h>
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cxmisc.h
+c000000004AC3F5E90000000000006D9D
+t1254356457
+s28061
+i"cvconfig.h"
+i<limits.h>
+i"omp.h"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cxoperations.hpp
+c000000004AC3F5E900000000000150B6
+t1254356457
+s86198
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/opencv/cxtypes.h
+c000000004AC3F5E9000000000000CF7E
+t1254356457
+s53118
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<emmintrin.h>
+i<mmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/FaceDetectViewController.xib
+c000000004B28FC3D0000000000003080
+t1260977213
+s12416
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/FaceDetect_Prefix.pch
+c000000004B27AAE700000000000000BD
+t1260890855
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/MainWindow.xib
+c000000004B27AAE7000000000000246F
+t1260890855
+s9327
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app
+t1279481696
+s476
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app.dSYM
+t1279481695
+s102
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect
+t1279481693
+s1883304
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetectViewController.nib
+t1260977520
+s2071
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/Info.plist
+t1260891026
+s614
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/MainWindow.nib
+t1260891027
+s1501
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/PkgInfo
+t1260891026
+s8
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/ResourceRules.plist
+t1279481689
+s485
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/embedded.mobileprovision
+t1279481695
+s7367
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/haarcascade_frontalface_default.xml
+t1260956243
+s1254733
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect.xcent
+t1279481695
+s422
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect
+t1279481693
+s941700
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect.LinkFileList
+c000000004C435759000000000000026A
+t1279481689
+s618
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectAppDelegate.o
+t1279481692
+s47344
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectViewController.o
+t1279481692
+s112564
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/Utilities.o
+t1279481692
+s92252
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/main.o
+t1279481692
+s6484
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect
+t1279481693
+s937128
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect.LinkFileList
+c000000004C435759000000000000026A
+t1279481689
+s618
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectAppDelegate.o
+t1279481693
+s47276
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectViewController.o
+t1279481693
+s107964
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/Utilities.o
+t1279481693
+s86360
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/main.o
+t1279481692
+s6468
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/haarcascade_frontalface_default.xml
+c000000004AC3F5E9000000000013254D
+t1254356457
+s1254733
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/libcv.a
+c000000004B2797FF000000000117B298
+t1260886015
+s18330264
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/libcvaux.a
+c000000004B2798010000000000B03A88
+t1260886017
+s11549320
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/libcxcore.a
+c000000004B2798010000000001176F10
+t1260886017
+s18312976
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/libhighgui.a
+c000000004B27980200000000001F4520
+t1260886018
+s2049312
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/libml.a
+c000000004B279802000000000048E0E0
+t1260886018
+s4776160
+
+N/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m
+c000000004B27AAE70000000000000174
+t1260890855
+s372
+i<UIKit/UIKit.h>
+
+N/Users/aa/Library/MobileDevice/Provisioning Profiles/A185512B-66F6-46E0-B2F9-1969A162B135.mobileprovision
+c000000004C0E0DF30000000000001CC7
+t1275989491
+s7367
+
+N/var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch.gch
+t1279481692
+s9831984
+
+N/var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch.gch
+t1279481692
+s10290736
+
+NFaceDetect-Info.plist
+c000000004B27AB91000000000000038B
+t1260891025
+s907
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301174489#301174489#0(0"0(0#1#0"8665907008#0"0#
+
+CCodeSign "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app"
+s301174495.154745
+e301174496.231727
+r1
+xCodeSign
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/FaceDetect.app301174495#301174496#0(0"0(0#0#96"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app8661170016#761"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Alasdair Allan (U5K5JPRS76)" "--resource-rules=/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/ResourceRules.plist" --entitlements "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect.xcent" "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app"0#
+
+CCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectAppDelegate.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301174492.409630
+e301174492.507792
+r1
+xCompileC
+xbuild/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectAppDelegate.o
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m301174492#301174492#0(0"0(0#0#92"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m8647688512#2090"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv6" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -include /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectAppDelegate.o"0#
+
+CCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectViewController.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301174492.484388
+e301174492.840084
+r1
+xCompileC
+xbuild/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectViewController.o
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m301174492#301174492#0(0"0(0#0#95"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m8660693088#2096"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv6" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -include /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetectViewController.o"0#
+
+CCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/Utilities.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301174492.508129
+e301174492.871347
+r1
+xCompileC
+xbuild/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/Utilities.o
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m301174492#301174492#0(0"0(0#0#80"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m8617639968#2066"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv6" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -include /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/Utilities.o"0#
+
+CCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/main.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301174492.408102
+e301174492.484270
+r1
+xCompileC
+xbuild/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/main.o
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m301174492#301174492#0(0"0(0#0#67"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m8655515008#2048"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv6" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -include /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectAppDelegate.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301174492.911919
+e301174493.009349
+r1
+xCompileC
+xbuild/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectAppDelegate.o
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m301174492#301174493#0(0"0(0#0#92"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m8666084288#2090"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv7" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -include /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectAppDelegate.m" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectAppDelegate.o"0#
+
+CCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectViewController.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301174493.009453
+e301174493.291084
+r1
+xCompileC
+xbuild/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectViewController.o
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m301174493#301174493#0(0"0(0#0#95"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m8665631360#2096"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv7" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -include /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/FaceDetectViewController.m" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetectViewController.o"0#
+
+CCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/Utilities.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301174493.246905
+e301174493.529155
+r1
+xCompileC
+xbuild/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/Utilities.o
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m301174493#301174493#0(0"0(0#0#80"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m8660876512#2066"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv7" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -include /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/Classes/Utilities.m" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/Utilities.o"0#
+
+CCompileC build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/main.o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301174492.840190
+e301174492.911810
+r1
+xCompileC
+xbuild/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/main.o
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m301174492#301174492#0(0"0(0#0#67"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m8641938336#2048"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv7" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -include /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/main.m" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/FaceDetectViewController.xib"
+r0
+
+CCompileXIB "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/MainWindow.xib"
+r0
+
+CCpResource build/Debug-iphoneos/FaceDetect.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s301174489.548755
+e301174489.563002
+r1
+xCpResource
+xbuild/Debug-iphoneos/FaceDetect.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist301174489#301174489#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8660177056#531"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app"0#
+
+CCpResource build/Debug-iphoneos/FaceDetect.app/haarcascade_frontalface_default.xml haarcascade_frontalface_default.xml
+r0
+
+CCreateUniversalBinary "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect" normal "armv6 armv7"
+s301174493.930384
+e301174493.948203
+r1
+xCreateUniversalBinary
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/FaceDetect.app/FaceDetect normal "armv6 armv7"301174493#301174493#0(0"0(0#0#72"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/armv6 armv78665692384#638"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect" "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect" -output "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect"0#
+
+CGenerateDSYMFile "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app.dSYM" "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect"
+s301174493.948308
+e301174495.121450
+r1
+xGenerateDSYMFile
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app.dSYM
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/FaceDetect.app.dSYM build/Debug-iphoneos/FaceDetect.app/FaceDetect301174493#301174495#0(0"0(0#0#107"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect8660038816#443"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/FaceDetect" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app.dSYM"0#
+
+CLd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect" normal armv6
+s301174492.871450
+e301174493.246795
+r1
+xLd
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect
+xnormal
+xarmv6
+lSLF07#2@152"Link /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect301174492#301174493#0(0"0(0#0#0"8666587808#1112"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-L/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" -filelist "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect.LinkFileList" -dead_strip -lstdc++ -lz -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -lcv -lcvaux -lcxcore -lhighgui -lml -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv6/FaceDetect"0#
+
+CLd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect" normal armv7
+s301174493.529250
+e301174493.930083
+r1
+xLd
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect
+xnormal
+xarmv7
+lSLF07#2@152"Link /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect301174493#301174493#0(0"0(0#0#0"8654814432#1112"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-L/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" -filelist "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect.LinkFileList" -dead_strip -lstdc++ -lz -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -lcv -lcvaux -lcxcore -lhighgui -lml -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/Objects-normal/armv7/FaceDetect"0#
+
+CProcessInfoPlistFile "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/Info.plist" FaceDetect-Info.plist
+r0
+
+CProcessPCH /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch.gch FaceDetect_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301174489.563220
+e301174492.302157
+r1
+xProcessPCH
+x/var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch.gch
+xFaceDetect_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile FaceDetect_Prefix.pch301174489#301174492#0(0"0(0#0#82"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/FaceDetect_Prefix.pch8659682752#1919"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv6" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/FaceDetect_Prefix.pch" -o /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-debvefjaajbiqacfhawjmweggxkc/FaceDetect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch.gch FaceDetect_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301174489.564164
+e301174492.407989
+r1
+xProcessPCH
+x/var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch.gch
+xFaceDetect_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile FaceDetect_Prefix.pch301174489#301174492#0(0"0(0#0#82"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/FaceDetect_Prefix.pch8657288320#1919"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-generated-files.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-own-target-headers.hmap" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-all-target-headers.hmap" -iquote "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect-project-headers.hmap" "-F/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/include" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources/armv7" "-I/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/DerivedSources" -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/FaceDetect_Prefix.pch" -o /var/folders/7L/7LUu0HhiGRGYGbqc+MnD6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetect_Prefix-fgwbxnvkijfsxobriqscwfzbavaq/FaceDetect_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/aa/Library/MobileDevice/Provisioning Profiles/A185512B-66F6-46E0-B2F9-1969A162B135.mobileprovision" "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/embedded.mobileprovision"
+s301174495.121567
+e301174495.124632
+r1
+xProcessProductPackaging
+x/Users/aa/Library/MobileDevice/Provisioning Profiles/A185512B-66F6-46E0-B2F9-1969A162B135.mobileprovision
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/aa/Library/MobileDevice/Provisioning Profiles/A185512B-66F6-46E0-B2F9-1969A162B135.mobileprovision" build/Debug-iphoneos/FaceDetect.app/embedded.mobileprovision301174495#301174495#0(0"0(0#0#121"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/embedded.mobileprovision8666145216#471"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/aa/Library/MobileDevice/Provisioning Profiles/A185512B-66F6-46E0-B2F9-1969A162B135.mobileprovision" -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect.xcent"
+s301174495.132912
+e301174495.154660
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect.xcent301174495#301174495#0(0"0(0#0#132"/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect.xcent8665849856#489"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/FaceDetect.build/Debug-iphoneos/FaceDetect.build/FaceDetect.xcent"0#
+
+CTouch "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app"
+s301174495.124723
+e301174495.132802
+r1
+xTouch
+x/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app
+lSLF07#2@102"Touch /Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app301174495#301174495#0(0"0(0#0#0"8665964352#315"    cd "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/aa/Documents/Sensors Programming Book/Code/FaceDetect/build/Debug-iphoneos/FaceDetect.app"0#
+
